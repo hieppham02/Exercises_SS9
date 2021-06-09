@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-top {
+    background-color: #fff;
+    box-shadow: 0 0 0.1px 0.5px rgba(0, 0, 0, 0.02);
+    width: 100%;
+    height: 56px;
+    position: sticky;
+    top: 0px;
+}
+
+.list-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-1 {
+    display: flex;
+    margin: 8px 0px 8px 0px;
+}
+
+.search-bar {
+    margin-left: 8px;
+}
+
+.search {
+    border: none;
+    background-color: #f0f2f5;
+    width: 280px;
+    height: 40px;
+    border-radius: 100px;
+    position: relative;
+}
+
+.icon-1, .icon-2, .icon-3, .icon-4 {
+    width: 115.9px;
+    height: 56px;
+    padding: 14px 47.89px;
+}
+
+.li-2 {
+    display: flex;
+    padding: 5px;
+}
+
+.li-3 {
+    margin: 8px;
+    height: 40px;
+    width: 293.97px;
+    background-color: #f0f2f5;
+    border-radius: 100px;
+    position: relative;
+}
+
+.background-image .image {
+    background-image: url(./anh_bia.jpg.png);
+    background-repeat: no-repeat;
+    width: 940px;
+    height: 340px;
+    display: block;
+    margin: auto;
+    position: relative;
+    background-size: cover;
+    border-radius: 6px;
+    box-shadow: 0 -54px rgba(0, 0, 0, 0.3) inset;
+    cursor: pointer;
+}
+
+.background-image .image .avatar {
+    background-image: url(./avatar.jpg);
+    width: 168px;
+    height: 168px;
+    background-size: cover;
+    position: absolute;
+    border-radius: 80px;
+    border: 4px solid white;
+    transform: translate(229%, 114%);
+    cursor: pointer;
+}
+
+.background-image .image .avatar .icon {
+    position: absolute;
+    background-color: #e4e6eb;
+    padding: 8px;
+    height: 36px;
+    width: 36px;
+    border-radius: 80px;
+    bottom: 1px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.background-image .image .change-box{
+    background-color: white;
+    width: 167.58px;
+    height: 36px;
+    bottom: 12px;
+    right: 24px;
+    position: absolute;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.background-image .image .change-box .text  {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: auto;
+    
+}
+
+.tieu-su {
+    font-size: 15px;
+    color: hsl(214deg 89% 52%);
+    margin: 3.34px;
+    font-weight: 500;
+}
+
+.line {
+    background-color: #ccc;
+    height: 1px;
+    width: 913px;
+    margin: 12.34px;
+    margin-bottom: -8px;
+}
+
+.name {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-other {
+    color: #65676b;
+    font-weight: 500;
+}
+
+.other-1 {
+    font-size: 13px;
+}
+
+.li-same {
+    margin-top: 7px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.more {
+    border: none;
+    color: #65676b;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.story {
+    background-color: #1877f2;
+    height: 36px;
+    width: 134px;
+    border-radius: 6px;
+    color: white;
+    position: relative;
+}
+
+.story-child {
+    padding: 6px;
+    position: absolute;
+    display: block;
+}
+
+.str {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.add-profile {
+    background-color: #e4e6eb;
+    height: 36px;
+    width: 212px;
+    border-radius: 6px;
+    color: white;
+    position: relative;
+}
+
+.add-1 {
+    padding: 6px;
+    position: absolute;
+    display: block; 
+}
+
+.add-101 {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.dot {
+    background-color: #e4e6eb;
+    width: 48px;
+    height: 36px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.select {
+    background-color: #fff;
+    height: 60px;
+    width: 946px;
+    margin: auto;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+li {
+    padding: 0px 16px;
+    cursor: pointer;
+}
+
+.li-8 {
+    padding-left: 0px;
+}
+
+.li-7 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header {
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: 1080px;
+}
+
+.li-same:hover {
+    background-color: rgb(232, 232, 232);
+    border-radius: 6px;
+}
+
+.li-same:active {
+    color: #1877f2;
+}
+
